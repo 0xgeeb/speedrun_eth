@@ -1,0 +1,68 @@
+challenge_1_staking/packages/subgraph/subgraph.yaml
+challenge_1_staking/packages/subgraph/generated
+challenge_1_staking/packages/subgraph/abis/*
+challenge_1_staking/packages/hardhat/*.txt
+challenge_1_staking/**/aws.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+challenge_1_staking/**/node_modules
+
+challenge_1_staking/packages/hardhat/artifacts*
+challenge_1_staking/packages/hardhat/deployments
+challenge_1_staking/packages/react-app/src/contracts/*
+challenge_1_staking/!packages/react-app/src/contracts/external_contracts.js
+challenge_1_staking/packages/hardhat/cache*
+challenge_1_staking/packages/**/data
+challenge_1_staking/!packages/react-app/src/contracts/contracts.js
+
+
+# ts
+challenge_1_staking/packages/hardhat-ts/cache
+# secrets
+challenge_1_staking/.secret
+
+challenge_1_staking/packages/subgraph/config/config.json
+challenge_1_staking/tenderly.yaml
+
+# dependencies
+challenge_1_staking//node_modules
+challenge_1_staking//.pnp
+challenge_1_staking/.pnp.js
+
+# testing
+challenge_1_staking/coverage
+
+challenge_1_staking/# production
+challenge_1_staking/build
+# yarn / eslint
+challenge_1_staking/.yarn/cache
+challenge_1_staking/.yarn/install-state.gz
+challenge_1_staking/.yarn/build-state.yml
+challenge_1_staking/.eslintcache
+# testing
+challenge_1_staking/coverage
+
+# production
+challenge_1_staking/build
+
+#Hardhat files
+challenge_1_staking/cache
+challenge_1_staking/artifacts
+
+# misc
+challenge_1_staking/.DS_Store
+challenge_1_staking/.env*
+
+# debug
+challenge_1_staking/npm-debug.log*
+challenge_1_staking/yarn-debug.log*
+challenge_1_staking/yarn-error.log*
+
+challenge_1_staking/.idea
+
+# Local Netlify folder
+challenge_1_staking/.netlify
+challenge_1_staking/*.tsbuildinfo
+challenge_1_staking/*.stackdump
+
+challenge_1_staking/packages/hardhat/mnemonic.txt
