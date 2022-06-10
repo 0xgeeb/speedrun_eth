@@ -6,6 +6,6 @@ import "./ERC20.sol";
 
 contract YourToken is ERC20 {
     constructor() ERC20("Gold", "GLD") {
-        _mint(0x2AA83eccAe5E1Dfee6E5EC8fE03726057c78B949, 1000 * 10 ** 18);
+        _mint(msg.sender, 1000 * 10 ** 18);
     }
 }

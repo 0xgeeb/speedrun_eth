@@ -25,7 +25,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 //
 // Select the network you want to deploy to here:
 //
-const defaultNetwork = "fujiAvalanche";
+const defaultNetwork = "rinkeby";
 
 const mainnetGwei = 115;
 
@@ -57,8 +57,8 @@ module.exports = {
       // (you can put in a mnemonic here to set the deployer locally)
     },
     rinkeby: {
-      url: "https://rinkeby.infura.io/v3/ec6a8acd1d354717acec099ad46a0bab", // <---- YOUR INFURA ID! (or it won't work)
-      //    url: "https://speedy-nodes-nyc.moralis.io/XXXXXXXXXXXXXXXXXXXXXXX/eth/rinkeby", // <---- YOUR MORALIS ID! (not limited to infura)
+      // url: "https://rinkeby.infura.io/v3/ec6a8acd1d354717acec099ad46a0bab", // <---- YOUR INFURA ID! (or it won't work)
+         url: "https://speedy-nodes-nyc.moralis.io/9e9e755583b430e3500d567e/eth/rinkeby", // <---- YOUR MORALIS ID! (not limited to infura)
       accounts: {
         mnemonic: mnemonic(),
       },

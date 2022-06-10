@@ -133,3 +133,5 @@ challenge_2_vendor/.idea
 challenge_2_vendor/.netlify
 challenge_2_vendor/*.tsbuildinfo
 challenge_2_vendor/*.stackdump
+
+challenge_2_vendor/packages/hardhat/mnemonic.txt
