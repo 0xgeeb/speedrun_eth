@@ -25,8 +25,8 @@ challenge_1_staking/packages/subgraph/config/config.json
 challenge_1_staking/tenderly.yaml
 
 # dependencies
-challenge_1_staking//node_modules
-challenge_1_staking//.pnp
+challenge_1_staking/node_modules
+challenge_1_staking/.pnp
 challenge_1_staking/.pnp.js
 
 # testing
@@ -66,3 +66,70 @@ challenge_1_staking/*.tsbuildinfo
 challenge_1_staking/*.stackdump
 
 challenge_1_staking/packages/hardhat/mnemonic.txt
+
+challenge_2_vendor/packages/subgraph/subgraph.yaml
+challenge_2_vendor/packages/subgraph/generated
+challenge_2_vendor/packages/subgraph/abis/*
+challenge_2_vendor/packages/hardhat/*.txt
+challenge_2_vendor/**/aws.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+challenge_2_vendor/**/node_modules
+
+challenge_2_vendor/packages/hardhat/artifacts*
+challenge_2_vendor/packages/hardhat/deployments
+challenge_2_vendor/packages/react-app/src/contracts/*
+challenge_2_vendor/!packages/react-app/src/contracts/external_contracts.js
+challenge_2_vendor/packages/hardhat/cache*
+challenge_2_vendor/packages/**/data
+challenge_2_vendor/!packages/react-app/src/contracts/contracts.js
+
+
+# ts
+challenge_2_vendor/packages/hardhat-ts/cache
+# secrets
+challenge_2_vendor/.secret
+
+challenge_2_vendor/packages/subgraph/config/config.json
+challenge_2_vendor/tenderly.yaml
+
+# dependencies
+challenge_2_vendor/node_modules
+challenge_2_vendor/.pnp
+challenge_2_vendor/.pnp.js
+
+# testing
+challenge_2_vendor/coverage
+
+# production
+challenge_2_vendor/build
+# yarn / eslint
+challenge_2_vendor/.yarn/cache
+challenge_2_vendor/.yarn/install-state.gz
+challenge_2_vendor/.yarn/build-state.yml
+challenge_2_vendor/.eslintcache
+# testing
+challenge_2_vendor/coverage
+
+# production
+challenge_2_vendor/build
+
+#Hardhat files
+challenge_2_vendor/cache
+challenge_2_vendor/artifacts
+
+# misc
+challenge_2_vendor/.DS_Store
+challenge_2_vendor/.env*
+
+# debug
+challenge_2_vendor/npm-debug.log*
+challenge_2_vendor/yarn-debug.log*
+challenge_2_vendor/yarn-error.log*
+
+challenge_2_vendor/.idea
+
+# Local Netlify folder
+challenge_2_vendor/.netlify
+challenge_2_vendor/*.tsbuildinfo
+challenge_2_vendor/*.stackdump
