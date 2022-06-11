@@ -1,7 +1,7 @@
-pragma solidity >=0.8.0 <0.9.0;
 //SPDX-License-Identifier: MIT
+pragma solidity >=0.8.0 <0.9.0;
 
-import "hardhat/console.sol";
+import "./Console.sol";
 
 contract DiceGame {
 
@@ -23,9 +23,16 @@ contract DiceGame {
         require(msg.value >= 0.002 ether, "Failed to send enough value");
 
         bytes32 prevHash = blockhash(block.number - 1);
+        console.log("prevHash");
+        console.logBytes32(prevHash);
+        console.log("address");
+        console.log(address(this));
+        console.log("nonce");
+        console.log(nonce);
         bytes32 hash = keccak256(abi.encodePacked(prevHash, address(this), nonce));
-        uint256 roll = uint256(hash) % 16;
-
+        console.log("hash");
+        console.logBytes32(hash);
+        uint256 roll = uint256(hash) % 16;        
         console.log("THE ROLL IS ",roll);
 
         nonce++;
