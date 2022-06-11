@@ -135,3 +135,75 @@ challenge_2_vendor/*.tsbuildinfo
 challenge_2_vendor/*.stackdump
 
 challenge_2_vendor/packages/hardhat/mnemonic.txt
+
+challenge_3_dicegame/packages/subgraph/subgraph.yaml
+challenge_3_dicegame/packages/subgraph/generated
+challenge_3_dicegame/packages/subgraph/abis/*
+challenge_3_dicegame/packages/hardhat/*.txt
+challenge_3_dicegame/**/aws.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+challenge_3_dicegame/**/node_modules
+
+challenge_3_dicegame/packages/hardhat/artifacts*
+challenge_3_dicegame/packages/hardhat/deployments
+challenge_3_dicegame/packages/react-app/src/contracts/*
+challenge_3_dicegame/!packages/react-app/src/contracts/external_contracts.js
+challenge_3_dicegame/packages/hardhat/cache*
+challenge_3_dicegame/packages/**/data
+challenge_3_dicegame/!packages/react-app/src/contracts/contracts.js
+
+
+# ts
+challenge_3_dicegame/packages/hardhat-ts/cache
+# secrets
+challenge_3_dicegame/.secret
+
+challenge_3_dicegame/packages/subgraph/config/config.json
+challenge_3_dicegame/tenderly.yaml
+
+# dependencies
+challenge_3_dicegame/node_modules
+challenge_3_dicegame/.pnp
+challenge_3_dicegame/.pnp.js
+
+# testing
+challenge_3_dicegame/coverage
+
+# production
+challenge_3_dicegame/build
+# yarn / eslint
+challenge_3_dicegame/.yarn/cache
+challenge_3_dicegame/.yarn/install-state.gz
+challenge_3_dicegame/.yarn/build-state.yml
+challenge_3_dicegame/.eslintcache
+# testing
+challenge_3_dicegame/coverage
+
+# production
+challenge_3_dicegame/build
+
+# Hardhat files
+challenge_3_dicegame/cache
+challenge_3_dicegame/artifacts
+
+# misc
+challenge_3_dicegame/.DS_Store
+challenge_3_dicegame/.env*
+
+# debug
+challenge_3_dicegame/npm-debug.log*
+challenge_3_dicegame/yarn-debug.log*
+challenge_3_dicegame/yarn-error.log*
+
+challenge_3_dicegame/.idea
+
+# Local Netlify folder
+challenge_3_dicegame/.netlify
+challenge_3_dicegame/*.tsbuildinfo
+challenge_3_dicegame/*.stackdump
+
+# doc directory
+challenge_3_dicegame/doc
+
+challenge_3_dicegame/packages/hardhat/mnemonic.txt
