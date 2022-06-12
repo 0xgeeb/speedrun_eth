@@ -207,3 +207,75 @@ challenge_3_dicegame/*.stackdump
 challenge_3_dicegame/doc
 
 challenge_3_dicegame/packages/hardhat/mnemonic.txt
+
+challenge_4_dex/packages/subgraph/subgraph.yaml
+challenge_4_dex/packages/subgraph/generated
+challenge_4_dex/packages/subgraph/abis/*
+challenge_4_dex/packages/hardhat/*.txt
+challenge_4_dex/**/aws.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+challenge_4_dex/**/node_modules
+
+challenge_4_dex/packages/hardhat/artifacts*
+challenge_4_dex/packages/hardhat/deployments
+challenge_4_dex/packages/react-app/src/contracts/*
+challenge_4_dex/!packages/react-app/src/contracts/external_contracts.js
+challenge_4_dex/packages/hardhat/cache*
+challenge_4_dex/packages/**/data
+challenge_4_dex/!packages/react-app/src/contracts/contracts.js
+
+
+# ts
+challenge_4_dex/packages/hardhat-ts/cache
+# secrets
+challenge_4_dex/.secret
+
+challenge_4_dex/packages/subgraph/config/config.json
+challenge_4_dex/tenderly.yaml
+
+# dependencies
+challenge_4_dex/node_modules
+challenge_4_dex/.pnp
+challenge_4_dex/.pnp.js
+
+# testing
+challenge_4_dex/coverage
+
+# production
+challenge_4_dex/build
+# yarn / eslint
+challenge_4_dex/.yarn/cache
+challenge_4_dex/.yarn/install-state.gz
+challenge_4_dex/.yarn/build-state.yml
+challenge_4_dex/.eslintcache
+# testing
+challenge_4_dex/coverage
+
+# production
+challenge_4_dex/build
+
+# Hardhat files
+challenge_4_dex/cache
+challenge_4_dex/artifacts
+
+# misc
+challenge_4_dex/.DS_Store
+challenge_4_dex/.env*
+
+# debug
+challenge_4_dex/npm-debug.log*
+challenge_4_dex/yarn-debug.log*
+challenge_4_dex/yarn-error.log*
+
+challenge_4_dex/.idea
+
+# Local Netlify folder
+challenge_4_dex/.netlify
+challenge_4_dex/*.tsbuildinfo
+challenge_4_dex/*.stackdump
+
+# doc directory
+challenge_4_dex/doc
+
+challenge_4_dex/packages/hardhat/mnemonic.txt
