@@ -279,3 +279,48 @@ challenge_4_dex/*.stackdump
 challenge_4_dex/doc
 
 challenge_4_dex/packages/hardhat/mnemonic.txt
+
+challenge_5_multisig/**/*.key
+challenge_5_multisig/**/*.cert
+challenge_5_multisig/packages/subgraph/subgraph.yaml
+challenge_5_multisig/packages/subgraph/generated
+challenge_5_multisig/packages/subgraph/abis
+challenge_5_multisig/packages/hardhat/*.txt
+challenge_5_multisig/**/aws.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+challenge_5_multisig/**/node_modules
+challenge_5_multisig/packages/hardhat/artifacts
+challenge_5_multisig/packages/hardhat/deployments
+challenge_5_multisig/packages/react-app/src/contracts/*
+challenge_5_multisig/!packages/react-app/src/contracts/contracts.js
+challenge_5_multisig/packages/hardhat/cache
+
+challenge_5_multisig/docker/**/data
+
+challenge_5_multisig/packages/subgraph/config/config.json
+challenge_5_multisig/tenderly.yaml
+
+# dependencies
+challenge_5_multisig/node_modules
+challenge_5_multisig/.pnp
+challenge_5_multisig/.pnp.js
+
+# testing
+challenge_5_multisig/coverage
+
+# production
+challenge_5_multisig/build
+
+# misc
+challenge_5_multisig/.DS_Store
+challenge_5_multisig/.env*
+
+# debug
+challenge_5_multisig/npm-debug.log*
+challenge_5_multisig/yarn-debug.log*
+challenge_5_multisig/yarn-error.log*
+
+challenge_5_multisig/.idea
+
+challenge_5_multisig/packages/hardhat/mnemonic.txt
